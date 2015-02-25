@@ -23,3 +23,15 @@ year: '2010',
 description: 'I went ballooning over the dwellings and countyside in Cappadocia. It was fantastic! I would recommend it to anyone.',
 photo_url: 'http://i.imgur.com/nZIeuxS.jpg'
 )
+
+Comment.create(
+username: 'Fry',
+body: 'Have you seen camels?',
+entry_id: 1
+)
+
+Comment.create(
+username: 'Leela',
+body: 'The sand dunes look amazing!',
+entry_id: 1
+)
