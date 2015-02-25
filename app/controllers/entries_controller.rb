@@ -18,6 +18,7 @@ class EntriesController < ApplicationController
   def entry_params
     params.require(:entry).permit(
       :title,
+      :username,
       :location,
       :description,
       :photo_url,
