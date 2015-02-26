@@ -38,7 +38,9 @@ class EntriesController < ApplicationController
       :location,
       :description,
       :photo_url,
-      :year
+      :year,
+      :latitude,
+      :longitude
     )
   end
 end

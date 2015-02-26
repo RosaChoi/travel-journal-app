@@ -35,3 +35,9 @@ username: 'Leela',
 body: 'The sand dunes look amazing!',
 entry_id: 1
 )
+
+Comment.create(
+username: 'Momo',
+body: 'It is beautiful! WOOF',
+entry_id: 2
+)

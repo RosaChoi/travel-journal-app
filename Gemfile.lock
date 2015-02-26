@@ -50,6 +50,7 @@ GEM
     debug_inspector (0.0.2)
     debugger-linecache (1.2.0)
     erubis (2.7.0)
+    geocoder (1.2.7)
     globalid (0.3.3)
       activesupport (>= 4.1.0)
     hike (1.2.3)
@@ -135,6 +136,7 @@ PLATFORMS
 DEPENDENCIES
   active_model_serializers (~> 0.9.3)
   byebug
+  geocoder
   jbuilder (~> 2.0)
   pg
   rack-cors (~> 0.3.1)
