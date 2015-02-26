@@ -5,6 +5,10 @@ class EntriesController < ApplicationController
     render json: entries
   end
 
+  def show
+    render json: Entry.find(params[:id])
+  end
+
   def create
     entry = Entry.new(entry_params)
     if entry.save
