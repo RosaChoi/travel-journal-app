@@ -40,7 +40,8 @@ class EntriesController < ApplicationController
       :photo_url,
       :year,
       :latitude,
-      :longitude
+      :longitude,
+      :like
     )
   end
 end
